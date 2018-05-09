@@ -1,5 +1,5 @@
 # 1. webpack-template-lib
-webpack 构建第三方库模板
+webpack 构建第三方库模板, 或一些小型demo的模板。
 
 # 2. 使用方法
 
