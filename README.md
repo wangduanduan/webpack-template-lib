@@ -13,7 +13,7 @@ git clone https://github.com/wangduanduan/webpack-template-lib.git
 git clone后，会在命令执行目录下生成一个webpack-template-lib文件夹，你需要把这个文件夹名字改成你需要的名字
 
 ```
-// 将webpack-template-lib改名为myLib文件夹
+// 将webpack-template-lib改名为my-lib文件夹
 mv webpack-template-lib my-lib
 
 // 进入my-lib文件夹，将原始的.git仓库删除

@@ -23,8 +23,10 @@ module.exports = {
     extensions: ['.js', '.json']
   },
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: 'wepack-template-lib.js',
+    path: path.resolve(__dirname, 'dist'),
+    library: 'webpackTemplateLib',
+    libraryTarget: 'window'
   },
   externals: {
     jquery: 'jQuery'
