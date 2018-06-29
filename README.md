@@ -1,29 +1,19 @@
 # 1. webpack-template-lib
-webpack 构建第三方库模板, 或一些小型demo的模板。
+webpack 构建第三方库模板
 
 # 2. 使用方法
 
-## 2.1. clone本项目
-```
-git clone https://github.com/wangduanduan/webpack-template-lib.git
-```
+## 2.1. 点击导入项目
 
-## 2.2. 重命名以及删除git原始数据仓库
+![](http://p3alsaatj.bkt.clouddn.com/20180629120029_bXurFi_Jietu20180629-115501.jpeg)
 
-git clone后，会在命令执行目录下生成一个webpack-template-lib文件夹，你需要把这个文件夹名字改成你需要的名字
 
-```
-// 将webpack-template-lib改名为my-lib文件夹
-mv webpack-template-lib my-lib
+## 2.2. 填写导入信息表格
 
-// 进入my-lib文件夹，将原始的.git仓库删除
-cd my-lib
-rm -rf .git
+![](http://p3alsaatj.bkt.clouddn.com/20180629120216_HtAZma_Jietu20180629-120201.jpeg)
 
-// 如果需要添加新的git仓库，可以执行
-git init
-git remote add origin https://github.com/wangduanduan/some-others-name.git
-```
+导入成功后，会建立新的项目仓库。然后就可以进行clone到本地的操作了。
+
 
 ## 2.3. 安装依赖
 
